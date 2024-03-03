@@ -1,0 +1,64 @@
+.project-headingg {
+    text-align: center;
+    padding: 4rem 0 2rem 0;
+}
+
+.project-container {
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    padding-bottom: 5rem;
+}
+
+.project-card {
+    background: #1a1919;
+    padding: 2% 1%; /* Adjust percentage values as needed */
+    width: calc(100% - 2%); /* Ensure the card spans the entire width */
+}
+
+.project-card img {
+    width: 100%;
+    height: 200px; /* Adjust this value as needed */
+    object-fit: cover; /* Ensures the image covers the specified dimensions */
+}
+
+.project-title {
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.pro-details p {
+    padding-bottom: 1rem;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+.pro-btns {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+}
+
+.pro-btns .btn {
+    padding: 0.5rem 1rem;
+}
+
+@media screen and (max-width: 740px) {
+    .project-container {
+        max-width: 90%;
+        margin: auto;
+        grid-template-columns: 1fr;
+    }
+    .project-card {
+        padding: 5% 3%; /* Adjust percentage values for smaller screens */
+    }
+}
+
+/* Highlight specific technologies */
+.project-title {
+    font-weight: bold;
+    
+    color: #f3f3ee; /* Adjust color as needed */
+}

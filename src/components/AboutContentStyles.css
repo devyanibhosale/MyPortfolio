@@ -1,0 +1,48 @@
+.about {
+  width: 100%;
+  margin: 3rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  border: 2px solid white;
+  box-sizing: border-box;
+}
+
+.about .left {
+  max-width: calc(50% - 10px);
+}
+
+.about .right {
+  max-width: calc(50% - 10px);
+  text-align: right;
+}
+
+.about .right img {
+  max-width: 800px; /* Ensure the image fits within its container */
+  height: auto; /* Maintain aspect ratio */
+  max-height: 500px; /* Set maximum height for the image */
+  padding-right: 300px;
+  padding-left: 100px;
+}
+
+.about .InfoPara {
+  color: white;
+  font-size: 16px;
+  padding-bottom: 20px;
+  padding-top: 50px;
+}
+
+.about .btn {
+  background-color: #dbf10d;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.about .btn:hover {
+  background-color: rgb(246, 226, 4);
+}
